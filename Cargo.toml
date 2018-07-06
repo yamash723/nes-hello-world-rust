@@ -1,0 +1,13 @@
+[package]
+name = "nes-hello-world-rust"
+version = "0.1.0"
+authors = ["Shuhei Yamashita <b.e7472@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+arrayref = "*"
+lazy_static = "1.0"
+
+[dependencies.sdl2]
+version = "0.31"
+default-features = false
